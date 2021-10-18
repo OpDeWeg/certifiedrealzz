@@ -186,7 +186,7 @@ repeat
 	wait()
 until game:IsLoaded()
 
-local OpDeWeg = loadstring(game:HttpGet(("https://raw.githubusercontent.com/OpDeWeg/certifiedrealzz/main/gui), true))()
+local OpDeWeg = loadstring(game:HttpGet("https://raw.githubusercontent.com/GreenDeno/Venyx-UI-Library/main/source.lua"))()
 local Library = OpDeWeg.new("Certified Realz")
 Library:setTheme("Glow", Color3.fromRGB(0, 191, 255))
 Library:setTheme("TextColor", Color3.fromRGB(0, 0, 255))
@@ -4536,7 +4536,7 @@ end)
 
 Library:SelectPage(Library.pages[1], true)
 
-Library:Notify("Certified Realz", "dsc.gg/certifiedrealz.")
+Library:Notify("Certified Realz", "dsc.gg/certifiedrealz")
 
 local bind = Instance.new("BindableFunction")
 
